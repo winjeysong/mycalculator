@@ -1,0 +1,42 @@
+html,body{
+  margin:0;
+  padding:0;
+}
+
+.calculator{
+  width:316px;
+  margin:40px auto;
+  padding:15px 15px 20px 15px;
+  border-radius:5px;
+  box-shadow:1px 1px 10px #DEDEDE;
+  border-right:1px solid #DEDEDE;
+  border-bottom:1px solid #DEDEDE;
+  background:#EEE;
+}
+
+.calculator p{
+  font-family: 'Space Mono', monospace;
+  text-align:center;
+  font-size:18px;
+}
+
+.calculator .textbox{
+  width:294px;
+  height:25px;
+  margin-left:8px;
+  background-color:#FFF;
+  border:2px solid #9C9C9C;
+  border-radius:3px;
+  transition:all 0.4 linear;
+}
+
+.calculator .btns{
+  margin-left:8px; 
+}
+
+.btns .button{
+  font-family: 'Space Mono', monospace;
+  margin:15px 9px 0 0;
+  width:6px;
+  height:35px;
+}
